@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "compileOnSave": true,
+    "compilerOptions": {
+        "lib": ["es2018", "ESNext.AsyncIterable", "dom"],
+        "strict": true,
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "outDir": "js",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
